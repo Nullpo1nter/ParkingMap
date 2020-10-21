@@ -9,7 +9,7 @@ import com.onlylemi.mapview.library.MapView;
 import com.onlylemi.mapview.library.MapViewListener;
 import java.io.IOException;
 
-public class MainActivity extends AppCompatActivity {
+public class MapLayerTestActivity extends AppCompatActivity {
 
     private static final String TAG = "MapLayerTestActivity";
 
