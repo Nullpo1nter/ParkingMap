@@ -8,25 +8,25 @@ import android.widget.ImageButton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class BookedPageActivity extends AppCompatActivity {
+public class RoutePageActivity extends AppCompatActivity {
     private ImageButton goback;
-    private Button route;
+    private Button navigate;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.booked_page);
-        goback = findViewById(R.id.booked_page_goback);
+        setContentView(R.layout.route_page);
+        goback = findViewById(R.id.route_page_goback);
         goback.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
                 finish();
             }
         });
-        route = findViewById(R.id.booked_page_route);
-        route.setOnClickListener(new View.OnClickListener() {
+        navigate = findViewById(R.id.booked_page_navigate);
+        navigate.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(BookedPageActivity.this, RoutePageActivity.class);
+                Intent intent=new Intent(RoutePageActivity.this, NavigatePageActivity.class);
                 startActivity(intent);
             }
         });

@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".BookedPageActivity"></activity>
+        <activity android:name=".RoutePageActivity"></activity>
+        <activity android:name=".NavigatePageActivity"></activity>
+        <activity android:name=".SearchPageActivity"></activity>
     </application>
 
 </manifest>
