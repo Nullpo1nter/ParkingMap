@@ -18,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_map_layer_test);
+        setContentView(R.layout.booked_page);
 
-        mapView = (MapView) findViewById(R.id.mapview);
+        mapView = (MapView) findViewById(R.id.booked_page_mapview);
         Bitmap bitmap = null;
         try {
             bitmap = BitmapFactory.decodeStream(getAssets().open("map.png"));
