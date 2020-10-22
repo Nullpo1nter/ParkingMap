@@ -16,7 +16,7 @@ import com.onlylemi.mapview.library.MapViewListener;
 import java.io.IOException;
 import java.util.Random;
 
-public class MainActivity extends AppCompatActivity {
+public class ParkingSearchActivity extends AppCompatActivity {
 
     private static final String TAG = "ParkingSearchActivity";
 
