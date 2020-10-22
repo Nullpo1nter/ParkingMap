@@ -25,9 +25,13 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+<<<<<<< HEAD
         setContentView(R.layout.activity_search);
+=======
+        setContentView(R.layout.booked_page);
+>>>>>>> 42aecd20e1f902bc349f4ee7dd73b2526db58c0f
 
-        mapView = (MapView) findViewById(R.id.mapview);
+        mapView = (MapView) findViewById(R.id.booked_page_mapview);
         Bitmap bitmap = null;
         try {
             bitmap = BitmapFactory.decodeStream(getAssets().open("map.png"));
